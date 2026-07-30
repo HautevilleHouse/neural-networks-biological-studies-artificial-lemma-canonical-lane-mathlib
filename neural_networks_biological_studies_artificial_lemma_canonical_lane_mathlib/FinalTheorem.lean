@@ -1,0 +1,9 @@
+import neural_networks_biological_studies_artificial_lemma_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace neural_networks_biological_studies_artificial_lemma_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end neural_networks_biological_studies_artificial_lemma_canonical_lane_mathlib
+end HautevilleHouse

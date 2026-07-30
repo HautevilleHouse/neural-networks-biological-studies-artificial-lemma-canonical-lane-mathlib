@@ -1,0 +1,16 @@
+import canonicalLaneMathlib.AdmissibleClass
+import NeuralNetworksBiologicalStudiesArtificialLemmaCanonicalLaneLean.BridgeLemmas
+import NeuralNetworksBiologicalStudiesArtificialLemmaCanonicalLaneLean.GateLemmas
+
+namespace HautevilleHouse
+namespace NeuralNetworksBiologicalStudiesArtificialLemmaCanonicalLaneLean
+
+def ConstrainedNeuralNetworksBiologicalStudiesArtificialLemmaClosure (A : AdmissibleClass) : Prop :=
+  bridgeClosed A ∧ gateClosed A
+
+theorem constrained_neural_networks_biological_studies_artificial_lemma_endgame (A : AdmissibleClass) :
+    ConstrainedNeuralNetworksBiologicalStudiesArtificialLemmaClosure A := by
+  exact And.intro (bridge_from_admissible_class A) (gate_from_admissible_class A)
+
+end NeuralNetworksBiologicalStudiesArtificialLemmaCanonicalLaneLean
+end HautevilleHouse
